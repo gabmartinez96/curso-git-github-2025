@@ -1,4 +1,4 @@
-# Principais comandos git
+# Principais comandos git iniciante
 git init . -> Inicia um repositório
 git status -> Verifica os status
 git add . -> Adiciona um arquivo para commit
