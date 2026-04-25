@@ -1,10 +1,43 @@
-# Principais comandos git iniciante
-git init . -> Inicia um repositório
-git status -> Verifica os status
-git add . -> Adiciona um arquivo para commit
-git commit -m "<mensagem>" -> Efetua um commit
+============================================================
+           GUIA RÁPIDO: GIT PARA INICIANTES
+============================================================
+
+[ COMANDOS BÁSICOS ]
+
+git init              -> Inicializa um repositório na pasta atual.
+git status            -> Verifica o estado dos arquivos (modified/staged).
+git add <arquivo>     -> Adiciona um arquivo específico para o commit.
+git add .             -> Adiciona TODOS os arquivos alterados.
+git commit -m "msg"   -> Grava as alterações com uma mensagem explicativa.
+git log --oneline     -> Lista o histórico de commits de forma resumida.
 
 
-# Fluxos de trabalho
+[ FLUXOS DE TRABALHO ]
+
+1. CICLO LOCAL (Edição Diária)
+   ---------------------------
+   MODIFICAR (Editar arquivos) -> STATUS -> ADD -> COMMIT
+
+2. CICLO REMOTO (GitHub / GitLab)
+   ------------------------------
+   PULL  (Baixa atualizações do servidor)
+   ADD   (Prepara suas mudanças)
+   COMMIT(Consolida localmente)
+   PUSH  (Envia para o servidor)
+
+3. RAMIFICAÇÃO (Branches)
+   ----------------------
+   git branch                -> Lista as branches existentes.
+   git checkout -b <nome>    -> Cria e entra em uma nova branch.
+   git merge <nome>          -> Une as alterações de uma branch à outra.
+
+
+[ BOAS PRÁTICAS ]
+
+* Use o arquivo .gitignore para ignorar pastas pesadas ou senhas.
+* Faça commits pequenos e frequentes (fácil de desfazer erros).
+* Escreva mensagens de commit claras (Ex: "Adiciona script de análise").
+
+============================================================
 
 
