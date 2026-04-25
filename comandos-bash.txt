@@ -1,8 +1,53 @@
-# Principais comandos básicos de bash
-cd
-ls
-ls -A
-cat
-rm
-rm -RF
-etc
+# Principais comandos para bash
+📂 Navegação e Localização
+Antes de sair movendo arquivos, você precisa saber onde está e o que tem ao seu redor.
+
+pwd (Print Working Directory): Exibe o caminho completo do diretório onde você está agora. É o seu "você está aqui".
+
+ls (List): Lista os arquivos e pastas do diretório atual.
+
+ls -a: Mostra todos os arquivos, incluindo os ocultos (aqueles que começam com um ponto, como .bashrc).
+
+ls -l: Exibe a lista em formato detalhado (permissões, dono, tamanho e data).
+
+cd (Change Directory): Muda de diretório.
+
+cd ..: Volta uma pasta para trás.
+
+cd ~: Vai direto para a sua pasta pessoal (Home).
+
+📄 Visualização e Criação
+cat (Concatenate): Exibe o conteúdo de um arquivo diretamente no terminal. Ótimo para arquivos curtos.
+
+less: Semelhante ao cat, mas permite rolar por arquivos grandes sem "poluir" sua tela inteira.
+
+touch: Cria um arquivo vazio ou atualiza a data de modificação de um existente.
+
+Exemplo: touch notas.txt
+
+mkdir (Make Directory): Cria uma nova pasta.
+
+Exemplo: mkdir Projetos
+
+🛠️ Manipulação e Limpeza
+Aqui é onde você deve ter cuidado redobrado.
+
+cp (Copy): Copia arquivos ou diretórios.
+
+cp arquivo.txt backup.txt
+
+mv (Move): Move ou renomeia arquivos e pastas.
+
+mv antigo.txt novo.txt (Renomeia)
+
+mv arquivo.txt Documentos/ (Move)
+
+rm (Remove): Apaga arquivos. Atenção: Não existe "Lixeira" no terminal. Apagou, sumiu.
+
+rm -rf (Recursive Force): O comando "perigoso".
+
+-r: Remove diretórios e todo o conteúdo dentro deles (recursivo).
+
+-f: Força a remoção sem pedir confirmação.
+
+Dica de ouro: Sempre verifique duas vezes o caminho antes de dar Enter em um rm -rf. Um espaço no lugar errado pode ser fatal para o sistema.
