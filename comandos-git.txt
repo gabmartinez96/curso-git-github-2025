@@ -1,0 +1,10 @@
+# Principais comandos git
+git init . -> Inicia um repositório
+git status -> Verifica os status
+git add . -> Adiciona um arquivo para commit
+git commit -m "<mensagem>" -> Efetua um commit
+
+
+# Fluxos de trabalho
+
+

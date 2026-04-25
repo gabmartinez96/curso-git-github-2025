@@ -1,0 +1,8 @@
+# Principais comandos básicos de bash
+cd
+ls
+ls -A
+cat
+rm
+rm -RF
+etc
