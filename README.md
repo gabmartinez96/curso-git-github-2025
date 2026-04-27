@@ -1,6 +1,6 @@
 # Curso TMW Git & GitHub 2025
 
-Esse é um curso para iniciantes aprenderem com versionamento de código 
+Esse é um curso para iniciantes aprenderem com versionamento de código
 e repositórios remotos com GitHub
 
 Além disso, vamos trabalhar com GitFlow ao final do curso e Visual Studio Code.
@@ -19,6 +19,7 @@ Conteúdo gratúito e de qualidade, disponível no YouTube!
 8. git merge nova_branche
 
 # Fluxo de trabalho GitHub <> Local (projeto próprio ou da empresa)
+
 1. git clone <endereço do projeto>
 2. git checkout -b <nova_branche>
 3. criar ou atualizar arquivos
@@ -29,11 +30,12 @@ Conteúdo gratúito e de qualidade, disponível no YouTube!
 8. git status
 9. git push origin <nova_branche>
 10. abrir Pull request no GitHub para a main
-11. excluir <novabranche> origin
-11. git checkout main
-12. git checkout -D <nova_branche>
+11. excluir <nova_branche> origin
+12. git checkout main
+13. git branch -D <nova_branche>
 
 # Fluxo de trabalho GitHub <> Local (projetos open source)
+
 1. Fork do projeto para o seu proprio github
 2. git clone <endereço do projeto fork>
 3. git checkout -b <nova_branche>
@@ -48,6 +50,3 @@ da branch fork para a main do projeto original
 11. excluir <nova_branche>
 12. git checkout main
 13. git branch -D <nova_branche>
-
-
-
