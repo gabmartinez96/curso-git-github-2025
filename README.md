@@ -7,6 +7,8 @@ Além disso, vamos trabalhar com GitFlow ao final do curso e Visual Studio Code.
 
 Conteúdo gratúito e de qualidade, disponível no YouTube!
 
+A seguir vamos ver alguns fluxos de trabalho para git e github
+
 ## Fluxo de trabalho Git Local
 
 1. git checkout -b <nova_branche>
