@@ -58,3 +58,7 @@ da branch fork para a main do projeto original
 13. git branch -D <nova_branche>
 
 [def]: https://www.youtube.com/playlist?list=PLvlkVRRKOYFQyKmdrassLNxkzSMM6tcSL
+
+### Fluxo de trabalho GIT FLOW
+
+Adicionar anotações de gitflow
