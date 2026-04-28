@@ -11,6 +11,8 @@ A seguir vamos ver alguns fluxos de trabalho para git e github
 
 [Curso Git 2025][def]
 
+Além do Youtube, se ligue no nosso site e agenda para ficar por dentro de tudo que vai rolar em 2025
+
 ## Fluxo de trabalho Git Local
 
 1. git checkout -b <nova_branche>
